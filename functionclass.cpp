@@ -8,12 +8,15 @@ class Student
     void display(){
        cout << id << " " <<gpa << endl;
     }
+    void setValue(int x, double y){
+        id = x;
+        gpa = y;
+    }
 
 };
 int main()
 {
     Student Shuvo;
-    Shuvo.id = 340985;
-    Shuvo.gpa = 3.58;
+    Shuvo.setValue(105, 3.58);
     Shuvo.display();
 }
