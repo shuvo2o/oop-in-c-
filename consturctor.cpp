@@ -13,4 +13,5 @@ public:
 int main()
 {
     Student sl(12000);
+    Student st(20000);
 }
